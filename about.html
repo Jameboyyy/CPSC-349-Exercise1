@@ -2,35 +2,47 @@
 <html>
     <head>
         <title>About</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <head>
-            <h2>About Me!</h2>
-        </head>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <main>
-            <h3>Hello Everyone!</h3>
-            <p>My name is <b>James Cadavona</b>!</p>
-            <br>
-            <p>I am in my 5th and <strong>final</strong> year as a Computer Science
-                major. My dream is to become a <mark>Front End Developer</mark>, specialized in
-                three JS using React. I also aim to become a Full Stack Developer
-                later in my career. Some hobbies I like to do are dancing and playing
-                video games. Last semester, I was in a dance team previously called "Project Titan" here at CSUF,
-                 now current called "Koi Dance Company". I was actually captain for the year and it was
-                 amazing experience. My favorite games are League of Legends and Fifa 23. I am also into cars.
-                 Working on them, driving them and spending money on them. I currently
-                  own a 2000 Acura Integra GS and I love taking it for late night rides.
-                  Hoping to get along with everyone in the class!
-            </p>
+        <header>
+            <div class="nav__container">
+                <h2 class="home__title">About Me!</h2>
+                <nav>
+                    <ul class="nav__links">
+                        <li class="nav__link"><a class="nav__text" href="index.html">Home</a></li>
+                        <li class="nav__link"><a class="nav__text" href="about.html">About</a></li>
+                        <li class="nav__link"><a class="nav__text" href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main id="about__section">
+            <h3 class="about__title">Hello Everyone!</h3>
+            <div class="split__about">
+                <div class="left__column">
+                    <p class="sub__title--about">My name is <b class="primary">James Cadavona</b >!</p>
+                    <br>
+                </div>
+                <div class="right__column">
+                    <p class="about__text">I am in my 5th and <strong>final</strong> year as a Computer Science
+                        major. My dream is to become a <mark>Front End Developer</mark>, specialized in
+                        three JS using React. I also aim to become a Full Stack Developer
+                        later in my career. Some hobbies I like to do are dancing and playing
+                        video games. Last semester, I was in a dance team previously called "Project Titan" here at CSUF,
+                         now current called "Koi Dance Company". I was actually captain for the year and it was
+                         amazing experience. My favorite games are League of Legends and Fifa 23. I am also into cars.
+                         Working on them, driving them and spending money on them. I currently
+                          own a 2000 Acura Integra GS and I love taking it for late night rides.
+                          Hoping to get along with everyone in the class!
+                    </p>
+                </div>
+            </div>
+            
         </main>
         <footer>
-            &copy;James Cadavona
+            &copy; James Cadavona
         </footer>
     </body>
 

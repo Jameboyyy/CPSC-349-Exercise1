@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="description" content="CPSC Excercise 1">
+        <meta name="description" content="CPSC Excercise 2">
         <meta name="author" content="James Cadavona">
-        <title>CPSC Exercise 1</title>
+        <title>CPSC Exercise 2</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
-            <h1>Welcome to James' Exercise 1</h1>
+            <div class="nav__container">
+                <h1 class="home__title">Welcome to James' Exercise 2</h1>
+                <nav>
+                    <ul class="nav__links">
+                        <li class="nav__link"><a class="nav__text" href="index.html">Home</a></li>
+                        <li class="nav__link"><a class="nav__text" href="about.html">About</a></li>
+                        <li class="nav__link"><a class="nav__text" href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
-        <nav>
-            <ul>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <section>
-            <img src="frontend-development-tools.png" alt="">
+        <section id="home__section">
+            <div class="home__img--container">
+                <img class="home__img" src="frontend-development-tools.png" alt="">
+            </div>
+            
         </section>
         <footer>
-            &copy;James Cadavona
+            &copy; James Cadavona
         </footer>
     </body>
 
